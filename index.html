@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorra con Yessica Gómez | Reduce tu Crédito Hipotecario</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind Config for Custom Colors/Fonts -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#1e3a8a', /* Deep Blue */
+                        secondary: '#10b981', /* Emerald Green */
+                        accent: '#0284c7', /* Light Blue */
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Animation for Floating Button */
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+        .btn-whatsapp-float {
+            animation: pulse-green 2s infinite;
+        }
+        
+        /* Setup base WA URL with pre-filled message */
+        :root {
+            --wa-url: 'https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario.';
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 flex flex-col min-h-screen">
 
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl btn-whatsapp-float hover:bg-green-600 transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
+       aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp text-4xl"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-40 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
+                        YG
+                    </div>
+                    <span class="font-bold text-xl text-primary tracking-tight">Ahorra con Yessica</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#beneficios" class="text-gray-600 hover:text-primary transition font-medium">Beneficios</a>
+                    <a href="#como-funciona" class="text-gray-600 hover:text-primary transition font-medium">¿Cómo funciona?</a>
+                    <a href="#sobre-mi" class="text-gray-600 hover:text-primary transition font-medium">Sobre Mí</a>
+                </div>
+                <div>
+                    <a href="https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario." target="_blank" class="bg-secondary hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-semibold shadow-md transition-all flex items-center gap-2 text-sm sm:text-base">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>Asesoría Gratis</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-br from-primary to-blue-900 overflow-hidden">
+        <!-- Decorative background elements -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="absolute left-0 top-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0,100 C30,50 70,50 100,0 L100,100 Z" fill="#ffffff" />
+            </svg>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 text-center lg:text-left">
+                    <span class="inline-block py-1 px-3 rounded-full bg-blue-800 text-blue-100 text-sm font-semibold mb-6 border border-blue-700">
+                        Estrategia Financiera 100% Legal y Segura
+                    </span>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+                        Reduce los años de tu hipoteca y ahorra <span class="text-secondary">millones en intereses</span>
+                    </h1>
+                    <p class="mt-4 text-xl text-blue-100 mb-10 font-light leading-relaxed">
+                        Descubre cómo optimizar tu crédito hipotecario. Paga tu casa en menos tiempo, libera tu capacidad de endeudamiento y haz que tu dinero rinda más sin cambiar tu estilo de vida.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                        <a href="https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario." target="_blank" class="bg-secondary hover:bg-green-600 text-white text-lg font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            Agenda tu Asesoría Gratuita
+                        </a>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="mt-12 flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-6 text-blue-200 text-sm font-medium">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-check-circle text-secondary"></i>
+                            <span>Estudio de viabilidad sin costo</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-shield-halved text-secondary"></i>
+                            <span>Proceso regulado por la ley</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instagram Video Embed -->
+                <div class="w-full lg:w-1/2 flex justify-center">
+                    <div class="flex justify-center w-full max-w-md mx-auto rounded-xl overflow-hidden shadow-2xl border-4 border-white bg-white">
+                        <iframe src="https://www.instagram.com/p/DVbBFYtDpHw/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true" class="w-full"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">¿Por qué optimizar tu crédito hoy mismo?</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">No dejes que los intereses devoren tu patrimonio. Tomar acción hoy significa asegurar tu tranquilidad del mañana.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Card 1 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 bg-blue-100 text-primary rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-house-circle-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Paga tu casa más rápido</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Logramos reducir entre 5 y 10 años el tiempo de tu deuda hipotecaria, permitiéndote ser el dueño absoluto de tu hogar mucho antes de lo planeado.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 bg-green-100 text-secondary rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Ahorra dinero al banco</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Deja de regalarle tu dinero a las entidades financieras. Maximizamos el capital abonado para que te ahorres millones de pesos en intereses abusivos.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 flex flex-col items-center text-center group">
+                    <div class="w-16 h-16 bg-blue-100 text-accent rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-chess-knight"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Estrategia Personalizada</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cada crédito es único. Realizamos un análisis matemático y financiero detallado de tu situación actual para diseñar la mejor ruta hacia tu libertad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona Section -->
+    <section id="como-funciona" class="py-20 bg-gray-50 border-t border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Un proceso sencillo y transparente</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Conseguir tu libertad financiera es más fácil de lo que crees. Te acompaño en cada paso.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Horizontal Connecting Line (Desktop only) -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-blue-200 transform -translate-y-1/2 z-0"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
+                    <!-- Paso 1 -->
+                    <div class="flex flex-col items-center text-center relative">
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg border-4 border-white">
+                            1
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Contáctame</h3>
+                        <p class="text-gray-600">Haz clic en el botón de WhatsApp y agenda tu primera asesoría totalmente gratuita.</p>
+                    </div>
+
+                    <!-- Paso 2 -->
+                    <div class="flex flex-col items-center text-center relative">
+                        <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg border-4 border-white">
+                            2
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Analizamos tu caso</h3>
+                        <p class="text-gray-600">Revisamos el extracto de tu crédito actual para encontrar las mejores oportunidades de mejora.</p>
+                    </div>
+
+                    <!-- Paso 3 -->
+                    <div class="flex flex-col items-center text-center relative">
+                        <div class="w-16 h-16 bg-secondary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg border-4 border-white">
+                            3
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Ejecutamos la estrategia</h3>
+                        <p class="text-gray-600">Me encargo de la gestión y los trámites para que empieces a ver el ahorro reflejado rápidamente.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario." target="_blank" class="inline-flex items-center gap-2 bg-primary hover:bg-blue-800 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-colors">
+                    Empezar mi proceso ahora <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12 bg-blue-50 rounded-3xl p-8 md:p-12 border border-blue-100 shadow-sm">
+                <!-- Imagen -->
+                <div class="w-full md:w-2/5 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                        <!-- Placeholder for Yessica's Image -->
+                        <img src="https://placehold.co/600x600/1e3a8a/ffffff?text=Yessica+Gómez" alt="Yessica Gómez" class="w-full h-full object-cover">
+                        <!-- Instagram Badge -->
+                        <a href="https://www.instagram.com/ahorraconyessicagomez/" target="_blank" class="absolute bottom-4 right-4 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-lg transform hover:scale-110 transition-transform">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contenido -->
+                <div class="w-full md:w-3/5 text-center md:text-left">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2">Sobre Yessica Gómez</h2>
+                    <p class="text-accent font-semibold mb-6 flex items-center justify-center md:justify-start gap-2">
+                        <i class="fa-brands fa-instagram"></i> @ahorraconyessicagomez
+                    </p>
+                    <div class="space-y-4 text-gray-600 text-lg leading-relaxed">
+                        <p>
+                            ¡Hola! Soy Yessica Gómez, especialista financiera dedicada a transformar la relación que las familias tienen con sus créditos hipotecarios.
+                        </p>
+                        <p>
+                            He descubierto que miles de personas pagan sumas exorbitantes en intereses bancarios simplemente por desconocimiento. Mi propósito a través de <strong>Ahorra con Yessica</strong> es empoderarte con educación y estrategias comprobadas para que recuperes el control de tu dinero.
+                        </p>
+                        <p>
+                            Con una estrategia inteligente y amparada por la ley, te guío paso a paso para que pagues tu casa en tiempo récord. ¡Tu tranquilidad financiera es mi mayor caso de éxito!
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="https://www.instagram.com/ahorraconyessicagomez/" target="_blank" class="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-instagram text-pink-600"></i> Sígueme en Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="py-16 bg-primary text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Listo para cambiar el futuro de tus finanzas?</h2>
+            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">No pospongas más tu tranquilidad. La asesoría es completamente gratuita y el primer paso para ahorrar millones.</p>
+            <a href="https://wa.me/573000000000?text=Hola%20Yessica,%20vengo%20de%20tu%20página%20web%20y%20me%20gustaría%20agendar%20una%20asesoría%20gratuita%20para%20reducir%20mi%20crédito%20hipotecario." target="_blank" class="bg-secondary hover:bg-green-400 text-primary hover:text-gray-900 text-xl font-bold py-4 px-10 rounded-full shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all transform hover:scale-105 inline-flex items-center gap-3">
+                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-10 pb-28 md:pb-10"> <!-- pb-28 on mobile to avoid overlap with floating button -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                        YG
+                    </div>
+                    <span class="font-semibold text-white tracking-tight">Ahorra con Yessica Gómez</span>
+                </div>
+                
+                <div class="text-sm text-center md:text-left">
+                    &copy; <script>document.write(new Date().getFullYear())</script> Ahorra con Yessica. Todos los derechos reservados.
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/ahorraconyessicagomez/" target="_blank" class="text-gray-400 hover:text-white transition-colors text-xl">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-xs text-gray-600">
+                La información proporcionada en esta página tiene fines informativos. Los resultados pueden variar según el tipo de crédito y las políticas vigentes de la entidad financiera.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
